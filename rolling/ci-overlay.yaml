@@ -12,6 +12,9 @@ jenkins_job_label: ci-agent
 jenkins_job_priority: 50
 jenkins_job_timeout: 240
 jenkins_job_weight: 4
+notifications:
+  committers: false
+  maintainers: false
 repos_files:
 - https://github.com/ros2/ros2/raw/rolling/ros2.repos
 repositories:

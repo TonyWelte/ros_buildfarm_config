@@ -11,6 +11,7 @@ jenkins_binary_job_timeout: 150
 jenkins_source_job_priority: 70
 jenkins_source_job_timeout: 30
 notifications:
+  committers: false
   maintainers: false
 package_blacklist:
 - acado_vendor  # Requires unreleased changes
